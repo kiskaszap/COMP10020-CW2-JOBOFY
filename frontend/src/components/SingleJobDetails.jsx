@@ -17,7 +17,7 @@ function SingleJobDetails({
               <div className="d-flex justify-content-center align-items-center mb-30">
                 <img
                   className="w-40 h-auto" // Adjusts the width to 25%, height adjusts automatically
-                  src={`http://localhost:5000${logo}`}
+                  src={`https://comp10020-cw2-jobofy-backend.onrender.com${logo}`}
                   alt="Job Details"
                   style={{ maxWidth: "150px", maxHeight: "150px" }} // Inline style for further control
                 />
