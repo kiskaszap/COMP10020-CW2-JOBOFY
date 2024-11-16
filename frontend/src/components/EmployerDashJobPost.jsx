@@ -46,7 +46,7 @@ function EmployerDashJobPost() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/jobUpload",
+        "https://comp10020-cw2-jobofy-backend.onrender.com/jobUpload",
         formData,
         {
           headers: {
