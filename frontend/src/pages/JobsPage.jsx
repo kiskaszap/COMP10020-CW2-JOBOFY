@@ -4,6 +4,9 @@ import axios from "axios";
 import JobCard from "../components/JobCard";
 import SignInModal from "../components/SingModal";
 import SignUpModal from "../components/SignUpModal";
+import shape1 from "@/assets/img/breadcrumb/shape-1.svg"
+import shape2 from "@/assets/img/breadcrumb/shape-2.svg"
+import shape3 from "@/assets/img/breadcrumb/shape-3.svg"
 
 function JobPage() {
   const [jobs, setJobs] = useState([]);
@@ -43,19 +46,19 @@ function JobPage() {
               <div className="breadcrumb__area__shape d-flex gap-4 justify-content-end align-items-center">
                 <div className="shape__one common">
                   <img
-                    src="src/assets/img/breadcrumb/shape-1.svg"
+                    src={shape1}
                     alt="Shape 1"
                   />
                 </div>
                 <div className="shape__two common">
                   <img
-                    src="src/assets/img/breadcrumb/shape-2.svg"
+                    src={shape2}
                     alt="Shape 2"
                   />
                 </div>
                 <div className="shape__three common">
                   <img
-                    src="src/assets/img/breadcrumb/shape-3.svg"
+                    src={shape3}
                     alt="Shape 3"
                   />
                 </div>
