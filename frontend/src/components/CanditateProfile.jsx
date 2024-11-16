@@ -20,7 +20,7 @@ function CanditateProfile() {
   // Fetch data from backend
   useEffect(() => {
     axios
-      .get("http://localhost:5000/candidateProfile", {
+      .get("https://comp10020-cw2-jobofy-backend.onrender.com/candidateProfile", {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then((response) => {
@@ -49,7 +49,7 @@ function CanditateProfile() {
     e.preventDefault();
     axios
       .post(
-        "http://localhost:5000/candidateProfile/update",
+        "https://comp10020-cw2-jobofy-backend.onrender.com/candidateProfile/update",
         {
           fullName,
           email,
