@@ -17,7 +17,7 @@ const JobCard = ({
         <div className="d-flex gap-4 flex-column flex-md-row mb-3 mb-md-0 justify-content-start align-items-center">
           {/* Company Icon */}
           <div className="company__icon">
-            <img src={`http://localhost:5000${logo}`} alt="logo" />
+            <img src={`https://comp10020-cw2-jobofy-backend.onrender.com${logo}`} alt="logo" />
           </div>
 
           {/* Job Meta */}
