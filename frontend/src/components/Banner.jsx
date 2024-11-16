@@ -1,3 +1,5 @@
+import bannershape from "@/assets/img/home-1/banner/image_2x.webp"
+
 const Banner = () => {
   return (
     <section className="rts__banner home__one__banner pt-260">
@@ -6,7 +8,7 @@ const Banner = () => {
           <img src="src/assets/img/home-1/banner/banner-shape.svg" alt="" />
         </div>
         <div className="shape__home__one __second d-none d-lg-block">
-          <img src="src/assets/img/home-1/banner/banner-shape-2.svg" alt="" />
+          <img src={bannershape} alt="" />
         </div>
         <div className="shape__home__one __third"></div>
       </div>
