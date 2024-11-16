@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom"; // Import Link from react-router-dom if using React Router
 import SignInModal from "../components/SingModal";
 import SignUpModal from "../components/SignUpModal";
+import shape1 from "@/assets/img/breadcrumb/shape-1.svg"
+import shape2 from "@/assets/img/breadcrumb/shape-2.svg"
+import shape3 from "@/assets/img/breadcrumb/shape-3.svg"
+import location from "@/assets/img/icon/location.svg"
+import mail from "@/assets/img/icon/mail.svg"
+import phone from "@/assets/img/icon/phone.svg"
 
 const Contact = () => {
   return (
@@ -28,19 +34,19 @@ const Contact = () => {
               <div className="breadcrumb__area__shape d-flex gap-4 justify-content-end align-items-center">
                 <div className="shape__one common">
                   <img
-                    src="src//assets/img/breadcrumb/shape-1.svg"
+                    src={shape1}
                     alt="Shape 1"
                   />
                 </div>
                 <div className="shape__two common">
                   <img
-                    src="src//assets/img/breadcrumb/shape-2.svg"
+                    src={shape2}
                     alt="Shape 2"
                   />
                 </div>
                 <div className="shape__three common">
                   <img
-                    src="src/assets/img/breadcrumb/shape-3.svg"
+                    src={shape3}
                     alt="Shape 3"
                   />
                 </div>
@@ -59,7 +65,7 @@ const Contact = () => {
               <div className="rts__workprocess__box is__contact rounded-3">
                 <div className="rts__icon">
                   <img
-                    src="src/assets/img/icon/location.svg"
+                    src={location}
                     alt="Location Icon"
                   />
                 </div>
@@ -74,7 +80,7 @@ const Contact = () => {
             <div className="col-lg-4 col-md-6">
               <div className="rts__workprocess__box is__contact rounded-3">
                 <div className="rts__icon">
-                  <img src="src/assets/img/icon/mail.svg" alt="Mail Icon" />
+                  <img src={mail} alt="Mail Icon" />
                 </div>
                 <span className="process__title h6 d-block">Email Here</span>
                 <a className="text-para fw-medium">
@@ -88,7 +94,7 @@ const Contact = () => {
             <div className="col-lg-4 col-md-6">
               <div className="rts__workprocess__box is__contact rounded-3">
                 <div className="rts__icon">
-                  <img src="src/assets/img/icon/phone.svg" alt="Phone Icon" />
+                  <img src={phone} alt="Phone Icon" />
                 </div>
                 <span className="process__title h6 d-block">Call Here</span>
                 <a className="fw-medium text-para">0141 848 3000</a>
