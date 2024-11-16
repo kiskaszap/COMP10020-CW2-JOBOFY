@@ -28,7 +28,7 @@ function SignupModal() {
 
     try {
       const role = activeTab.candidate ? "candidate" : "employer";
-      const response = await axios.post("http://localhost:5000/register", {
+      const response = await axios.post("https://comp10020-cw2-jobofy-backend.onrender.com/register", {
         username: formData.sname,
         email: formData.signemail,
         password: formData.spassword,
