@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import profile from "@/assets/img/dashboard/proifle.svg"
+
 
 function CanditateProfile() {
   const token = localStorage.getItem("token");
@@ -88,7 +90,7 @@ function CanditateProfile() {
               <div className="info__top">
                 <div className="author__image">
                   <img
-                    src="src/assets/img/dashboard/proifle.svg"
+                    src={profile}
                     alt="Profile"
                   />
                 </div>
