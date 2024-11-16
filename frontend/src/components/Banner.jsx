@@ -1,4 +1,4 @@
-import bannershape from "@/assets/img/home-1/banner/image_2x.webp"
+import bannershape from "@/assets/img/home-1/banner/banner-shape-2.svg"
 import figure5 from "@/assets/img/home-1/banner/image_2x.webp"
 
 const Banner = () => {
