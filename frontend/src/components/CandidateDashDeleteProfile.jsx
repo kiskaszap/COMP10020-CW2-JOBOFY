@@ -8,7 +8,7 @@ function CandidateDashDeleteProfile() {
   const deleteProfile = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:5000/deleteProfile",
+        "https://comp10020-cw2-jobofy-backend.onrender.com/deleteProfile",
         { password }, // Only send the password value, not the input element
         {
           headers: {
