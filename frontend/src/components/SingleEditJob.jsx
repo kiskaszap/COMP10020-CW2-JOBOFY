@@ -25,7 +25,7 @@ function SingleEditJob({
   const handleSaveChanges = () => {
     axios
       .put(
-        `http://localhost:5000/jobEdit/${id}`, // Backend endpoint to update the job
+        `https://comp10020-cw2-jobofy-backend.onrender.com/jobEdit/${id}`, // Backend endpoint to update the job
         {
           experience: editExperience,
           salaryMin: editMinSalary,
@@ -56,7 +56,7 @@ function SingleEditJob({
       <div className="d-flex justify-content-center align-items-center mb-4">
         <img
           className="img-fluid"
-          src={`http://localhost:5000${logo}`}
+          src={`https://comp10020-cw2-jobofy-backend.onrender.com${logo}`}
           alt="Job Details"
           style={{ maxWidth: "150px", maxHeight: "150px" }}
         />
