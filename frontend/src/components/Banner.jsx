@@ -1,4 +1,5 @@
 import bannershape from "@/assets/img/home-1/banner/image_2x.webp"
+import figure5 from "@/assets/img/home-1/banner/image_2x.webp"
 
 const Banner = () => {
   return (
@@ -30,7 +31,7 @@ const Banner = () => {
             <div className="rts__banner__image position-relative">
               <figure className="banner__image">
                 <img
-                  src="src/assets/img/home-1/banner/image_2x.webp"
+                  src={figure5}
                   alt="banner"
                 />
               </figure>
