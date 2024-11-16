@@ -10,7 +10,7 @@ function JobPage() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/jobs")
+      .get("https://comp10020-cw2-jobofy-backend.onrender.com/jobs")
       .then((response) => {
         setJobs(response.data.jobs);
       })
