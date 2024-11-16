@@ -1,3 +1,4 @@
+import candidate from "@/assets/img/author/1.svg"
 function EmployerDashList() {
   return (
     <div className="dashboard__content d-flex">
@@ -20,7 +21,7 @@ function EmployerDashList() {
                   <div className="author__info">
                     <div className="author__meta">
                       <div className="author__image">
-                        <img src="src/assets/img/author/1.svg" alt="" />
+                        <img src={candidate} alt="" />
                       </div>
                       <div className="author__name">
                         <h6 className="fw-semibold mb-1">Mark Anthony</h6>
