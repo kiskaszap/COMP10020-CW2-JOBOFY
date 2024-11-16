@@ -16,7 +16,7 @@ function EditJobPage() {
 
   useEffect(() => {
     axios
-      .post("http://localhost:5000/fetchSingleJob", {
+      .post("https://comp10020-cw2-jobofy-backend.onrender.com/fetchSingleJob", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
