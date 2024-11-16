@@ -12,7 +12,7 @@ function Header() {
     const token = localStorage.getItem("token");
     setIsToken(token);
     axios
-      .get("http://localhost:5000/userAuth", {
+      .get("https://comp10020-cw2-jobofy-backend.onrender.com/userAuth", {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then((response) => {
