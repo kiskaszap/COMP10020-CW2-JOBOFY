@@ -9,7 +9,7 @@ function EmployerMyJobs() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/fetchEmployerJobList", {
+      .get("https://comp10020-cw2-jobofy-backend.onrender.com/fetchEmployerJobList", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -37,7 +37,7 @@ function EmployerMyJobs() {
   const deleteJob = (jobId) => {
     console.log(token, "This is token");
     axios
-      .delete(`http://localhost:5000/jobDelete/${jobId}`, {
+      .delete(`https://comp10020-cw2-jobofy-backend.onrender.com/jobDelete/${jobId}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
